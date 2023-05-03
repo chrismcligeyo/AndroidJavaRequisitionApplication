@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!--    <color name="colorPrimary">#6200EE</color>-->
+<!--    <color name="colorPrimaryDark">#3700B3</color>-->
+<!--    <color name="colorAccent">#03DAC5</color>-->
+    <color name="colorPrimary">#37474F</color>
+    <color name="colorPrimaryDark">#263238</color>
+    <color name="colorAccent">#B0BEC5</color>
+    <color name="textBlack">#000000</color>
+    <color name="textWhite">#FFFFFF</color>
+    <color name="brilliantWhite">#FFFEF4</color>
+    <color name="buttonnColor0">#7BAAAA </color>
+    <color name="bUttonColor1">#E88267</color>
+    <color name="bUttonColor2">#A4C9C6</color>
+    <color name="bUttonColor3">#FFD445</color>
+    <color name="bUttonColor4">#FF9820</color>
+    <color name="bUttonColor5">#D44835</color>
+    <color name="bUttonColor6">#34323E</color>
+    <color name="bUttonColor7">#DDE9E7</color>
+    <color name="bUttonColor8">#505060</color>
+    <color name="deeppurple">#7c4dff</color>
+    <color name="yello">#ffb300</color>
+    <color name="green">#00bfa5</color>
+    <color name="pink">#fe104d</color>
+    <color name="colorAccent1">#FF4081</color>
+    <color name="createButton1">#4EA602</color>
+    <color name="createButton2">#1A6F2B</color>
+    <color name="createButton3">#152D13</color>
+    <color name="createButton4">#8FC82C</color>
+    <color name="greyRedErrorCol1">#FF1A00</color>
+    <color name="greyRedErrorCol2">#FF0000</color>
+    <color name="greyRedErrorCol3">#E4001B</color>
+    <color name="buttonBlue1">#000080</color>
+    <color name="buttonBlue2">#003366</color>
+    <color name="buttonBlue3">#006699</color>
+    <color name="buttonBlue4">#0000FF</color>
+    <color name="buttonBlue5">#99CCFF</color>
+    <color name="buttonBlue6">#6699CC</color>
+
+
+    <array name="color_array_1">
+        <item name="red_500" type="color">#e51c23</item>
+        <item name="pink_500" type="color">#e91e63</item>
+        <item name="purple_500" type="color">#9c27b0</item>
+        <item name="deep_purple_500" type="color">#673ab7</item>
+        <item name="indigo_500" type="color">#3f51b5</item>
+        <item name="blue_500" type="color">#5677fc</item>
+        <item name="light_blue_500" type="color">#03a9f4</item>
+        <item name="cyan_500" type="color">#00bcd4</item>
+        <item name="teal_500" type="color">#009688</item>
+        <item name="green_500" type="color">#259b24</item>
+        <item name="light_green_500" type="color">#8bc34a</item>
+        <item name="lime_500" type="color">#cddc39</item>
+        <item name="yellow_500" type="color">#ffeb3b</item>
+        <item name="orange_500" type="color">#ff9800</item>
+        <item name="deep_orange_500" type="color">#ff5722</item>
+        <item name="brown_500" type="color">#795548</item>
+        <item name="grey_500" type="color">#9e9e9e</item>
+        <item name="blue_grey_500" type="color">#607d8b</item>
+        <item name="bUttonColor6">#34323E</item>
+        <item name="bUttonColor7">#DDE9E7</item>
+        <item name="bUttonColor8">#505060</item>
+        <item name="deeppurple">#7c4dff</item>
+        <item name="yello">#ffb300</item>
+        <item name="green">#00bfa5</item>
+        <item name="pink">#fe104d</item>
+        <item name="colorAccent1">#FF4081</item>
+        <item name="createButton1">#4EA602</item>
+        <item name="createButton2">#1A6F2B</item>
+        <item name="createButton3">#152D13</item>
+        <item name="createButton4">#8FC82C</item>
+        <item name="greyRedErrorCol1">#FF1A00</item>
+        <item name="greyRedErrorCol2">#FF0000</item>
+        <item name="greyRedErrorCol3">#E4001B</item>
+        <item name="buttonBlue1">#000080</item>
+        <item name="buttonBlue2">#003366</item>
+        <item name="buttonBlue3">#006699</item>
+        <item name="buttonBlue4">#0000FF</item>
+        <item name="buttonBlue5">#99CCFF</item>
+        <item name="buttonBlue6">#6699CC</item>
+    </array>
+
+
+    <!--My MAterial Colours-->
+
+    <color name="colorPrimaryVariant">#263238</color>
+    <color name="colorSecondary">#B0BEC5</color>
+    <color name="background">#FAFAFA</color>
+
+</resources>

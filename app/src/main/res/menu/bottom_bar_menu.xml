@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<!--wont use home item because it is used as the app naviation for bottom bar. will set navigationcicklistemer on it-->
+    <item
+        android:id="@+id/bar_home"
+        android:icon="@drawable/ic_home"
+        android:title="@string/bottom_bar_menu_home"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/bar_add_circle"
+        android:icon="@drawable/ic_add_circle"
+        android:title="@string/bottom_bar_menu_create"
+
+        app:showAsAction="ifRoom" />
+
+    <item
+            android:id="@+id/bar_view"
+            android:icon="@drawable/ic_view"
+            android:title="@string/bottom_bar_menu_view_requisitions"
+            app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/bar_search"
+        android:icon="@drawable/ic_search"
+        android:title="@string/bottom_bar_menu_search"
+        app:showAsAction="ifRoom" />
+
+
+
+<!--    <item-->
+<!--        android:id="@+id/bar_more"-->
+<!--        android:icon="@drawable/ic_more"-->
+<!--        android:title="More"-->
+<!--        app:showAsAction="ifRoom" />-->
+</menu>

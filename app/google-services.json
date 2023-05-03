@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "965288787228",
+    "firebase_url": "https://roadshowmasters-hub.firebaseio.com",
+    "project_id": "roadshowmasters-hub",
+    "storage_bucket": "roadshowmasters-hub.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:965288787228:android:88d2c3b3703ad6ac164ed9",
+        "android_client_info": {
+          "package_name": "com.mcligeyo.rsmhub"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "965288787228-gfmrjvcvnnfb4ggmtogfsjunjfuhe53c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBh5IcWEdCpAROg42hGdBsxYgNqkvLiBEo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "965288787228-gfmrjvcvnnfb4ggmtogfsjunjfuhe53c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

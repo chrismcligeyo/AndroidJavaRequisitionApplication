@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:background="@color/brilliantWhite"
+    tools:context=".AddRequisitionItemActivity">
+
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/addRequisitionItemNameTextInputLayout"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="60dp"
+        app:boxBackgroundColor="@color/textWhite"
+        app:shapeAppearanceOverlay="@style/ShapeAppearanceOverlay.MyApp.TextInputLayout.Rounded">
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/addRequisitionItemNameTextInputEditText"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/add_requisiton_item_name"
+        android:textColorHighlight="@color/colorPrimary"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/addRequisitionItemSupplierTextInputLayout"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        app:boxBackgroundColor="@color/textWhite"
+        app:shapeAppearanceOverlay="@style/ShapeAppearanceOverlay.MyApp.TextInputLayout.Rounded">
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/addRequisitionItemNameSupplierTextInputEditText"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/add_requisiton_item_supplier"
+            android:textColorHighlight="@color/colorPrimary"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/addRequisitionItemUnitCostTextInputLayout"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        app:boxBackgroundColor="@color/textWhite"
+        app:shapeAppearanceOverlay="@style/ShapeAppearanceOverlay.MyApp.TextInputLayout.Rounded">
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/addRequisitionItemUnitCostTextInputEditText"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/add_requisiton_item_unit_cost"
+            android:textColorHighlight="@color/colorPrimary"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/addRequisitionItemQuantityTextInputLayout"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        app:boxBackgroundColor="@color/textWhite"
+        app:shapeAppearanceOverlay="@style/ShapeAppearanceOverlay.MyApp.TextInputLayout.Rounded">
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/addRequisitionItemQuantityTextInputEditText"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/add_requisiton_item_quantity"
+            android:textColorHighlight="@color/colorPrimary"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/makeReqItemButton"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="20dp"
+        android:text="@string/add_requisition_item"
+        android:textAppearance="@style/TextStyle"
+        android:textColor="@color/textWhite"
+        app:backgroundTint="@color/createButton4"
+        app:shapeAppearanceOverlay="@style/ShapeAppearanceOverlay.MyApp.TextInputLayout.Rounded"
+        app:iconTint="@color/textWhite"
+        app:icon="@drawable/ic_add"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton.Icon"/>
+
+
+    <com.victor.loading.rotate.RotateLoading
+        android:id="@+id/rotateLoadingProgessDialogAddReqItem"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        app:loading_color="@color/createButton1" />
+
+</LinearLayout>

@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".RequisitionDetailsEditActivity">
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/requisitionDetailsEditCardView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="20dp">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:weightSum="100">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/reqDetailsEditprofile"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:background="@drawable/cerclebackgroundren"
+                        android:textAlignment="center"
+                        android:textColor="@android:color/white"
+                        android:textStyle="bold"
+                        android:text="@string/requisition_details_edit_m"
+                        android:gravity="center"
+                        android:textSize="20sp"/>
+
+                    <TextView
+                        android:id="@+id/reqDetailsEditItemName"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:paddingLeft="0dp"
+                        android:text="@string/requisition_details_edit_item_name"
+                        android:maxLines="1"
+                        android:textSize="15sp"
+                        android:textStyle="bold"
+                        android:textColor="@android:color/black"/>
+                </LinearLayout>
+
+                <View
+                    android:layout_marginTop="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:alpha=".5"
+                    android:background="#325775" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:orientation="horizontal"
+                android:weightSum="100">
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="0dp"
+                    android:paddingTop="5dp"
+                    android:text="@string/requisition_details_edit_supplier"
+                    android:textSize="12sp"
+                    android:textColor="@android:color/black"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:id="@+id/requisition_details_edit_supplier"
+                    android:paddingLeft="0dp"
+                    android:paddingTop="5dp"
+                    android:text=""
+                    android:textColor="#969696"
+                    android:textSize="12sp" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:orientation="horizontal">
+                <View
+                    android:layout_marginTop="5dp"
+                    android:layout_width="120dp"
+                    android:layout_height="1dp"
+                    android:alpha=".5" />
+                <View
+                    android:layout_marginTop="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:alpha=".5"
+                    android:background="#325775" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:orientation="horizontal"
+                android:weightSum="100">
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="0dp"
+                    android:paddingTop="5dp"
+                    android:text="@string/requisition_details_edit_unit_cost"
+                    android:textSize="12sp"
+                    android:textColor="@android:color/black"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/requisition_details_edit_unit_cost"
+                    android:paddingLeft="0dp"
+                    android:paddingTop="5dp"
+                    android:text=""
+                    android:textColor="#969696"
+                    android:textSize="12sp" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:orientation="horizontal">
+                <View
+                    android:layout_marginTop="5dp"
+                    android:layout_width="120dp"
+                    android:layout_height="1dp"
+                    android:alpha=".5" />
+                <View
+                    android:layout_marginTop="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:alpha=".5"
+                    android:background="#325775" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:orientation="horizontal"
+                android:weightSum="100">
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="0dp"
+                    android:paddingTop="5dp"
+                    android:text="@string/requsition_details_edit_quantity"
+                    android:textSize="12sp"
+                    android:textColor="@android:color/black"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/requisition_details_edit_quantity"
+                    android:paddingLeft="0dp"
+                    android:paddingTop="5dp"
+                    android:text=""
+                    android:textColor="#969696"
+                    android:textSize="11dp" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:orientation="horizontal">
+                <View
+                    android:layout_marginTop="5dp"
+                    android:layout_width="120dp"
+                    android:layout_height="1dp"
+                    android:alpha=".5" />
+                <View
+                    android:layout_marginTop="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:alpha=".5"
+                    android:background="#325775" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:orientation="horizontal"
+                android:weightSum="100">
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="0dp"
+                    android:paddingTop="5dp"
+                    android:text="@string/requisiton_details_edit_total"
+                    android:textSize="12sp"
+                    android:textColor="@android:color/black"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/requisiton_details_edit_total"
+                    android:paddingLeft="0dp"
+                    android:paddingTop="5dp"
+                    android:text=""
+                    android:textColor="#969696"
+                    android:textSize="12sp" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:orientation="horizontal">
+                <View
+                    android:layout_marginTop="5dp"
+                    android:layout_width="120dp"
+                    android:layout_height="1dp"
+                    android:alpha=".5" />
+                <View
+                    android:layout_marginTop="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:alpha=".5"
+                    android:background="#325775" />
+            </LinearLayout>
+
+<!--            <LinearLayout-->
+<!--                android:id="@+id/linear_layout_requisition_edit"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginTop="20dp"-->
+<!--                android:gravity="center"-->
+<!--                android:orientation="horizontal">-->
+
+<!--                <com.google.android.material.button.MaterialButton-->
+<!--                    android:id="@+id/ReqDetailsEditEditButton"-->
+<!--                    android:theme="@style/MatButton"-->
+<!--                    android:layout_width="130dp"-->
+<!--                    android:layout_height="40dp"-->
+<!--                    android:layout_gravity="center"-->
+<!--                    app:backgroundTint="@color/createButton4"-->
+<!--                    android:text="@string/requisition_details_edit_edit"-->
+<!--                    android:textColor="@color/textWhite"-->
+<!--                    android:textAppearance="@style/TextAppearance.MaterialComponents.Button"-->
+<!--                    app:contentPaddingBottom="0dp"-->
+<!--                    app:cardPreventCornerOverlap="true"-->
+<!--                    app:cardUseCompatPadding="true"-->
+<!--                    />-->
+
+<!--                <com.google.android.material.button.MaterialButton-->
+<!--                    android:id="@+id/ReqDetailsEditDeleteButton"-->
+<!--                    android:layout_width="130dp"-->
+<!--                    android:layout_height="40dp"-->
+<!--                    android:layout_gravity="center"-->
+<!--                    app:backgroundTint="@color/greyRedErrorCol1"-->
+<!--                    android:text="@string/requisition_details_edit_delete"-->
+<!--                    android:layout_marginStart="2dp"-->
+<!--                    android:textColor="@color/textWhite"-->
+<!--                    android:textAppearance="@style/TextAppearance.MaterialComponents.Button"-->
+<!--                    android:theme="@style/MatButton"-->
+<!--                    app:contentPaddingBottom="0dp"-->
+<!--                    app:cardPreventCornerOverlap="true"-->
+<!--                    app:cardUseCompatPadding="true"-->
+<!--                    />-->
+
+
+
+<!--            </LinearLayout>-->
+
+<!--            <com.victor.loading.rotate.RotateLoading-->
+<!--                android:id="@+id/ReqDetailsRotateLoader"-->
+<!--                android:layout_width="40dp"-->
+<!--                android:layout_height="40dp"-->
+<!--                android:layout_gravity="center"-->
+<!--                android:layout_marginTop="10dp"-->
+<!--                app:loading_color="@color/createButton1" />-->
+
+<!--            <LinearLayout-->
+<!--                android:id="@+id/linear_layout_reconcile"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginTop="20dp"-->
+<!--                android:gravity="center"-->
+<!--                android:orientation="horizontal">-->
+
+<!--                <com.google.android.material.button.MaterialButton-->
+<!--                    android:id="@+id/ReqDetailsEditReconcileButton"-->
+<!--                    android:layout_width="170dp"-->
+<!--                    android:layout_height="40dp"-->
+<!--                    android:layout_gravity="center"-->
+<!--                    app:backgroundTint="@color/createButton4"-->
+<!--                    android:text="@string/requisition_details_edit_reconcile_item"-->
+<!--                    android:layout_marginStart="9dp"-->
+<!--                    android:textColor="@color/textWhite"-->
+<!--                    android:textAppearance="@style/TextAppearance.MaterialComponents.Button"-->
+<!--                    android:theme="@style/MatButton"-->
+<!--                    app:contentPaddingBottom="0dp"-->
+<!--                    app:cardPreventCornerOverlap="true"-->
+<!--                    app:cardUseCompatPadding="true"-->
+<!--                    />-->
+<!--            </LinearLayout>-->
+
+        </LinearLayout>
+
+
+
+
+    </com.google.android.material.card.MaterialCardView>
+
+</LinearLayout>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:background="@color/brilliantWhite"
+    tools:context=".MakeRequisitionActivity">
+
+
+
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/requisNameTextInputLay"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="60dp"
+            app:boxBackgroundColor="@color/textWhite"
+            app:shapeAppearanceOverlay="@style/ShapeAppearanceOverlay.MyApp.TextInputLayout.Rounded">
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/requisNameTextInputEditText"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:hint="@string/requisition_name"
+                android:textColorHighlight="@color/colorPrimary"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/makeRequisDescriptionTextInputLay"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            app:boxBackgroundColor="@color/textWhite"
+            app:shapeAppearanceOverlay="@style/ShapeAppearanceOverlay.MyApp.TextInputLayout.Rounded">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/makeRequisDescriptionEditText"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:hint="@string/requisition_description"
+                android:textColorHighlight="@color/colorPrimary"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/makeRequisDateTextInputLay"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        app:boxBackgroundColor="@color/textWhite"
+        app:shapeAppearanceOverlay="@style/ShapeAppearanceOverlay.MyApp.TextInputLayout.Rounded"
+        >
+
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/makeRequisDateEditText"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:hint="@string/click_to_enter_date"
+            android:textColorHighlight="@color/colorPrimary"
+            android:focusableInTouchMode="false"
+
+            />
+
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/makeReqButton"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="80dp"
+        android:text="@string/make_requisition"
+        android:textAppearance="@style/TextStyle"
+        android:textColor="@color/textWhite"
+        app:backgroundTint="@color/createButton4"
+        app:shapeAppearanceOverlay="@style/ShapeAppearanceOverlay.MyApp.TextInputLayout.Rounded"
+        app:iconTint="@color/textWhite"
+        app:icon="@drawable/ic_add"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton.Icon"
+
+
+        />
+
+
+        <com.victor.loading.rotate.RotateLoading
+            android:id="@+id/rotateLoadingProgessDialog"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="-55dp"
+            app:loading_color="@color/createButton1" />
+
+</LinearLayout>
